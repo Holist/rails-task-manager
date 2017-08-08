@@ -1,0 +1,10 @@
+<h1>Task's name : <%= @task.name %></h1>
+
+<div class="task-desc">
+  <p>Description : <%= @task.description %></p>
+  <p>Task created at : <%= @task.created_at %></p>
+</div>
+
+<div class="btn btn-default">
+  <%= link_to "Index", tasks_path %>
+</div>
